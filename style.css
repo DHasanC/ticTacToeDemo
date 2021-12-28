@@ -1,0 +1,79 @@
+/* * {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+   
+    background-color: beige;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  
+    width:200px;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    
+    background-color: darkseagreen;
+
+}
+
+.grid-item{
+    background-color: honeydew;
+    width: 100px;
+    height: 100px;
+    border: 10px solid rgb(117, 187, 117);
+  
+ 
+   
+
+
+}
+
+
+.control{
+    text-align: center;
+    padding: 0%;
+    margin: auto;
+}
+
+.resetbutton{
+    font-family: Arial, sans-serif;
+
+} */
+
+body {
+    font-family: "Arial", sans-serif;
+}
+section {
+    text-align: center;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 1px #333333;
+    border: 1px solid #333333;
+    cursor: pointer;
+line-height: 100px;
+    font-size: 60px;
+}
